@@ -42,7 +42,16 @@ export const Seconday: Story = {
 export const CustomColor: Story = {
   args:{
     label: 'Custom color label',
-    size: 'normal',
+    size: 'h1',
     fontColor: '#adf400',
+  }
+};
+
+export const CustomBackgroundColor: Story = {
+  args:{
+    label: 'Custom backgroundColor label',
+    size: 'h1',
+    fontColor: 'white',
+    backgroundColor: 'black'
   }
 };

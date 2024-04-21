@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "start-storybook -p 6006",
     "dev": "npm run storybook",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_2246b6f267156bf"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -31,5 +33,6 @@
     "storybook": "^8.0.8",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
