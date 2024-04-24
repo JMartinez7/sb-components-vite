@@ -14,7 +14,7 @@
   "license": "MIT",
   "homepage": "http://jmartinez.net",
   "repository": {
-    "url": "https://git",
+    "url": "https://github.com/JMartinez7/sb-components-vite",
     "type": "git"
   },
   "files": [
@@ -38,7 +38,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_2246b6f267156bf",
     "clean": "rimraf dist/",
-    "copyfiles": "copyfiles -u 1 src/**/*.css dist/"
+    "copyfiles": "copyfiles -u 1 src/**/*.css dist/",
+    "push:npm": "np"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "1.3.3",
